@@ -1,0 +1,9 @@
+h1 {
+    color: blueviolet;
+}
+
+button {
+    border: 1px solid #34495e;
+    color: whitesmoke;
+    background-color: rgb(5, 164, 164);
+}
