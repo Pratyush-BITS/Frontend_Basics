@@ -1,4 +1,4 @@
-function yourFunction() {
+function nextPhoto() {
     document.body.style.background = getRandomColor();
 }
 
