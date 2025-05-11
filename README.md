@@ -9,3 +9,7 @@ Here are the links to the crash course:
 - **Part 2:** [HTML, CSS, and JS Crash Course - Part 2](https://www.youtube.com/watch?v=d5HnAlAFt40)  
 - **Part 3:** [HTML, CSS, and JS Crash Course - Part 3](https://www.youtube.com/watch?v=SkuHUUyCKIw)  
 - **Part 4:** [HTML, CSS, and JS Crash Course - Part 4](https://www.youtube.com/watch?v=5OCrKVNqCcs)
+
+
+https://github.com/user-attachments/assets/0113fe5e-c076-4653-8d2c-8486859d1311
+
