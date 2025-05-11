@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="page.css" type="text/css">
     <script src="page.js"></script>
     <title>Cats & Dogs</title>
 </head>
 
 <body>
-    <h1>Let's look at some cute pictures of cats & dogs.</h1>
+    <section id="container">
+        <h1>Let's look at some cute pictures of cats & dogs 😸🐶</h1>
 
-    <img src="images/rose dog.jpeg"/>
+        <img id="imageHolder" src="images/1.jpeg" class="circle-image"/>
 
-    <button onclick="nextPhoto()">Get next Photo</button>
-    <p>Hope you like the picture 😊 </p>
-    
+        <div class="button-group">
+            <button onclick="updateImage(false)">Go to previous Photo</button>
+            <div class="separator"></div>
+            <button onclick="updateImage(true)">Go to next Photo</button>
+        </div>
+
+        <p id="text1">Hope you like the picture 😊 </p>
+    </section>
 </body>
 </html>

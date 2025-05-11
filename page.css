@@ -1,13 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
+
 h1 {
-    color: blueviolet;
+    font-family: "Source Code Pro";
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-top: 5px solid;
 }
 
 button {
-    border: 1px solid #34495e;
-    color: whitesmoke;
-    background-color: rgb(5, 164, 164);
+    border: 1px solid  #F69680;
+    background-color: #F69680;
+    text-transform: uppercase;
+    text-emphasis-color: aqua;
+    font-size: 14px;
+    text-decoration: none;
+    outline: none;
+    margin: 10px auto 0;
+    padding: 20px 25px;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    transition: 2s;
+    background-color: #2E1263;
+    color: #F69680;
+    text-decoration: underline;
 }
 
 body {
-    background-color: lightblue;
-  }
+    background-color: #F69680;
+    color: #2E1263;
+    font-weight: 400;
+    height: 100vh;
+}
+
+.circle-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text1 {
+    font-size: 25px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+  
+.separator {
+    width: 1px;
+    height: 40px;
+    background-color: #aaa;
+}
+  
